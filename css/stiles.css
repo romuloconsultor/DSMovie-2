@@ -3,7 +3,25 @@
 * {font-family: 'Open Sans', sans-serif;
 
 }
-h1{
 
-    color: red;
+html, body {background-color: #e8e8e8;}
+
+
+header {
+    box-sizing: border-box;
+
+    background-color: #4d41c0;
+    color: #ffffff
+    ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+a, a:hover {
+    text text-decoration: none;
+    color: unset;
 }
